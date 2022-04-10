@@ -1,0 +1,14 @@
+.populated-tree-display {
+    position: relative;
+    width: calc(100% - 3.75rem);
+    margin: auto;
+    margin-top: 1.875rem;
+    height: calc(100vh - 24.375rem);
+    background-color: white;
+    overflow: hidden;
+
+    h3 {
+        position: relative;
+        left: 0.625rem;
+    }
+}

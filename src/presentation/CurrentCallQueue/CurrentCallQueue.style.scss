@@ -1,0 +1,14 @@
+.current-call-queue {
+    position: relative;
+    width: calc(100% - 3.75rem);
+    margin-left: 1.875rem;
+    margin-top: 1.875rem;
+    height: 18.75rem;
+    background-color: white;
+    overflow: hidden;
+
+    h3 {
+        position: relative;
+        left: 0.625rem;
+    }
+}

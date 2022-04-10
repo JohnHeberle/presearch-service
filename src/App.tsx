@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import CurrentCallQueue from './presentation/CurrentCallQueue/CurrentCallQueue';
+import PopulatedTreeDisplay from './presentation/PopulatedTreeDisplay/PopulatedTreeDisplay';
+import PrimarySearch from './presentation/PrimarySearch/PrimarySearch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PrimarySearch />
+      <div className="details-container">
+        <CurrentCallQueue />
+        <PopulatedTreeDisplay />
+      </div>
     </div>
   );
 }
